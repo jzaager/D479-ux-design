@@ -166,11 +166,11 @@ header {
   max-width: 1200px;
   margin-inline: auto;
 
-  padding-block: 4rem;
+  padding-block: 6rem;
 }
 
 .booking-card {
-  width: calc(33.33% - 20px);
+  width: calc(33.33% - 36px);
 
   text-align: center;
 
@@ -189,7 +189,8 @@ header {
 
 .booking-card img {
   max-width: 100%;
-  height: auto;
+  aspect-ratio: 4/3;
+  object-fit: cover;
 }
 
 .card-content {
@@ -220,6 +221,20 @@ header {
 
 .booking-card .btn:hover {
   background-color: var(--clr-primary-dark);
+}
+
+.booking-card figcaption {
+  margin-top: -1rem;
+  padding-block: 1rem 0.35rem;
+
+  color: #fff;
+  background-color: #000;
+
+  font-size: 14px;
+}
+
+figcaption a {
+  color: inherit;
 }
 
 /* footer */
