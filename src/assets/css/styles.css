@@ -128,8 +128,6 @@ header {
   background-repeat: no-repeat;
   opacity: 0.9;
 
-  /* border-block: 10px solid var(--clr-primary-dark); */
-
   text-align: center;
   color: var(--clr-neutral);
 }
@@ -153,6 +151,71 @@ header {
 .hero p {
   font-size: 20px;
   font-style: italic;
+}
+
+/*  booking cards*/
+.booking-options {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+  max-width: 1200px;
+  margin-inline: auto;
+
+  padding-block: 4rem;
+}
+
+.booking-card {
+  width: calc(33.33% - 20px);
+
+  text-align: center;
+
+  background-color: #fff;
+  border: 1px solid #ddd;
+
+  border-radius: 8px;
+  overflow: hidden;
+
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.booking-card:nth-of-type(2) {
+  scale: 1.2;
+}
+
+.booking-card img {
+  max-width: 100%;
+  height: auto;
+}
+
+.card-content {
+  padding: 20px;
+}
+
+.card-content h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.card-content p {
+  margin-bottom: 20px;
+}
+
+.booking-card .btn {
+  display: inline-block;
+  padding: 10px 20px;
+
+  background-color: var(--clr-primary);
+  color: #fff;
+
+  text-decoration: none;
+
+  border-radius: 4px;
+  transition: background-color 300ms ease;
+}
+
+.booking-card .btn:hover {
+  background-color: var(--clr-primary-dark);
 }
 
 /* footer */
