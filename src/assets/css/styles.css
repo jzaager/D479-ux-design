@@ -4,6 +4,7 @@
   --clr-accent: lightcoral;
 
   --clr-neutral: #fff;
+  --clr-neutral-darker: #f9f9f9;
 
   --clr-text: #333;
 }
@@ -235,6 +236,32 @@ header {
 
 figcaption a {
   color: inherit;
+}
+
+/* about */
+.about {
+  background-color: var(--clr-neutral-darker);
+  padding: 4rem 0;
+}
+
+.about-content {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.about h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: var(--clr-primary);
+}
+
+.about p {
+  color: var(--clr-text);
+
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 20px;
 }
 
 /* footer */
