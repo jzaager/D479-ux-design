@@ -15,7 +15,7 @@ const loadHeader = () => {
         <ul class="submenu-content">
           <li><a href="./blog.html">Blog</a></li>
           <li><a href="./faqs.html">FAQs</a></li>
-          <li><a href="#contact">Contact</a></li>
+          <li><a href="./index.html#contact">Contact</a></li>
         </ul>
       </li>
     </ul>
@@ -42,7 +42,7 @@ const loadFooter = () => {
         <li><a href="./cuisine.html">Cuisine</a></li>
         <li><a href="./blog.html">Blog</a></li>
         <li><a href="./faqs.html">FAQs</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <li><a href="./index.html#contact">Contact</a></li>
       </ul>
     </div>
     <div class="social-media">
@@ -53,7 +53,7 @@ const loadFooter = () => {
     </div>
     <div class="contact-info">
       <h3>Contact Us</h3>
-      <address>
+      <address id="contact">
         <p>123 Main Street, Taniti City</p>
         <p>Email: info@taniti.com</p>
         <p>Phone: +123 456 7890</p>
