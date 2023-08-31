@@ -53,7 +53,7 @@ header {
 .logo {
   margin-left: 20px;
   font-size: 24px;
-  font-weight: bold;
+  font-weight: 700;
 }
 
 .logo a {
@@ -80,6 +80,7 @@ header {
 .main-nav a {
   text-decoration: none;
   color: inherit;
+
   padding: 10px 20px;
   display: block;
 }
@@ -87,6 +88,10 @@ header {
 /* 'more' in main-nav*/
 .submenu {
   position: relative;
+}
+
+.submenu,
+.signup-form button {
   cursor: pointer;
 }
 
@@ -129,6 +134,7 @@ header {
   position: relative;
   background-image: url('../images/taniti-landscape-hero.jpg');
   background-size: cover;
+  background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   opacity: 0.9;
@@ -158,6 +164,67 @@ header {
   font-style: italic;
 }
 
+/* email signup */
+.email-signup {
+  background-color: var(--clr-primary-dark);
+  color: var(--clr-neutral);
+
+  padding: 4rem 0;
+
+  text-align: center;
+}
+
+.signup-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.email-signup h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.email-signup p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.signup-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.signup-form input[type='email'],
+.signup-form button,
+.booking-card .btn {
+  border-radius: 4px;
+}
+
+.signup-form input[type='email'] {
+  width: 50%;
+  padding: 10px;
+  margin-right: 10px;
+  border: none;
+}
+
+.signup-form button {
+  padding: 10px 20px;
+
+  background-color: var(--clr-primary-dark);
+  color: var(--clr-neutral);
+
+  font-weight: 600;
+
+  border: 1px solid var(--clr-primary);
+  transition: background-color 300ms ease;
+}
+
+.signup-form button:hover {
+  background-color: var(--clr-primary);
+  color: var(--clr-text);
+}
+
 /*  booking cards*/
 .booking-options {
   display: flex;
@@ -175,7 +242,7 @@ header {
 
   text-align: center;
 
-  background-color: #fff;
+  background-color: var(--clr-neutral);
   border: 1px solid #ddd;
 
   border-radius: 8px;
@@ -212,11 +279,10 @@ header {
   padding: 10px 20px;
 
   background-color: var(--clr-primary);
-  color: #fff;
+  color: var(--clr-neutral);
 
   text-decoration: none;
 
-  border-radius: 4px;
   transition: background-color 300ms ease;
 }
 
@@ -228,7 +294,7 @@ header {
   margin-top: -1rem;
   padding-block: 1rem 0.35rem;
 
-  color: #fff;
+  color: var(--clr-neutral);
   background-color: #000;
 
   font-size: 14px;
@@ -240,7 +306,7 @@ figcaption a {
 
 /* about */
 .about {
-  background-color: var(--clr-neutral-darker);
+  background-color: var(--clr-text);
   padding: 4rem 0;
 }
 
@@ -257,7 +323,7 @@ figcaption a {
 }
 
 .about p {
-  color: var(--clr-text);
+  color: var(--clr-neutral-darker);
 
   font-size: 18px;
   line-height: 1.5;
@@ -274,6 +340,7 @@ footer {
 .footer-container {
   max-width: 1200px;
   margin: 0 auto;
+
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -285,9 +352,10 @@ footer {
 }
 
 .footer-logo {
-  flex: 1;
   font-size: 24px;
   font-weight: bold;
+
+  place-self: center;
 }
 
 .footer-logo a {
@@ -295,6 +363,7 @@ footer {
   color: var(--clr-neutral);
 }
 
+.footer-logo,
 .sitemap,
 .social-media,
 .contact-info {
@@ -326,6 +395,15 @@ footer h3 {
 .sitemap a:hover,
 .social-media a:hover {
   color: var(--clr-accent);
+}
+
+.social-media > .icons-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+
+  margin-top: 10px;
+  margin-left: 30px;
 }
 
 .social-media i {

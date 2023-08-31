@@ -47,9 +47,15 @@ const loadFooter = () => {
     </div>
     <div class="social-media">
       <h3>Follow Us</h3>
-      <a href="#"><i class="fab fa-facebook"></i></a>
-      <a href="#"><i class="fab fa-twitter"></i></a>
-      <a href="#"><i class="fab fa-instagram"></i></a>
+      <div class="icons-wrapper">
+        <a href=""><i class="fab fa-facebook"></i></a>
+        <a href=""><i class="fab fa-twitter"></i></a>
+        <a href=""><i class="fab fa-instagram"></i></a>
+        <a href=""><i class="fab fa-tiktok"></i></a>
+        <a href=""><i class="fab fa-linkedin"></i></a>
+
+
+      </div>
     </div>
     <div class="contact-info">
       <h3>Contact Us</h3>
