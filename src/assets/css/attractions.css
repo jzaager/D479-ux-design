@@ -1,0 +1,25 @@
+body {
+  background-color: var(--clr-neutral-darker);
+}
+
+main.attractions {
+  margin-bottom: 2rem;
+}
+
+p.main-heading {
+  font-size: 48px;
+  font-weight: 600;
+  text-align: center;
+}
+
+p.main-heading:first-of-type {
+  padding-top: 2rem;
+}
+
+.booking-options {
+  padding-block: 2rem;
+}
+
+.booking-card:nth-of-type(2) {
+  scale: 1;
+}
