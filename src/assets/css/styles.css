@@ -334,7 +334,7 @@ figcaption a {
 footer {
   background-color: var(--clr-primary-dark);
   color: var(--clr-neutral);
-  padding: 20px 0;
+  padding: 20px 0 10px;
 }
 
 .footer-container {
@@ -414,6 +414,18 @@ footer h3 {
 .contact-info p {
   margin-bottom: 5px;
   font-size: 14px;
+}
+
+.acknowledgement {
+  margin-inline: auto;
+  margin-top: 10px;
+  width: fit-content;
+
+  text-align: center;
+}
+
+.acknowledgement a {
+  color: inherit;
 }
 
 /* media queries */

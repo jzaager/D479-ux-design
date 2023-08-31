@@ -54,7 +54,6 @@ const loadFooter = () => {
         <a href=""><i class="fab fa-tiktok"></i></a>
         <a href=""><i class="fab fa-linkedin"></i></a>
 
-
       </div>
     </div>
     <div class="contact-info">
@@ -65,6 +64,10 @@ const loadFooter = () => {
         <p>Phone: +123 456 7890</p>
       </address>
     </div>
+  </div>
+  <div class="acknowledgement">
+    <p>All images sourced from <a href="https://unsplash.com/">Unsplash</a></p>
+    <p>&#169 2023 Justin Zaager - Western Governors University</p>
   </div>`;
 };
 
