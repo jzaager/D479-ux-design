@@ -406,6 +406,10 @@ footer h3 {
   margin-left: 30px;
 }
 
+.social-media > .icons-wrapper > a {
+  width: fit-content;
+}
+
 .social-media i {
   font-size: 24px;
   margin-right: 10px;
