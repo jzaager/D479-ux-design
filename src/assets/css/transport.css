@@ -1,0 +1,39 @@
+.bold {
+  font-weight: 700;
+}
+
+.transport {
+  padding-block: 3rem 4rem;
+  margin-inline: auto;
+
+  max-width: calc(100% - 4rem);
+}
+
+h1 {
+  font-size: 38px;
+  margin-bottom: 30px;
+}
+
+h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 18px;
+}
+
+section {
+  margin-bottom: 2rem;
+  max-width: 80ch;
+}
+
+section:last-of-type {
+  margin-bottom: 0;
+}
+
+@media (max-width: 500px) {
+  h1 {
+    text-align: center;
+  }
+}
