@@ -41,6 +41,18 @@ main {
   flex-grow: 1;
 }
 
+main.lodging {
+  background-color: var(--clr-neutral-darker);
+}
+
+main.lodging h1 {
+  text-align: center;
+  font-style: italic;
+  font-size: 48px;
+
+  margin-top: 4rem;
+}
+
 header {
   background-color: var(--clr-primary);
   color: var(--clr-text);
@@ -239,6 +251,11 @@ header {
   background-color: var(--clr-neutral-darker);
 }
 
+.lodging.booking-options {
+  padding-top: 4rem;
+  gap: 2rem;
+}
+
 .booking-card {
   width: calc(33.33% - 36px);
 
@@ -255,6 +272,9 @@ header {
 
 .booking-card:nth-of-type(2) {
   scale: 1.2;
+}
+.lodging .booking-card:nth-of-type(2) {
+  scale: 1;
 }
 
 .booking-card img {
