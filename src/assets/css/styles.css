@@ -321,7 +321,7 @@ header {
   background-color: var(--clr-primary-dark);
 }
 
-.booking-card figcaption {
+figcaption {
   margin-top: -1rem;
   padding-block: 1rem 0.35rem;
 
