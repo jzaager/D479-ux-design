@@ -225,7 +225,7 @@ header {
   color: var(--clr-text);
 }
 
-/*  booking cards*/
+/*  booking section*/
 .booking-options {
   display: flex;
   justify-content: space-between;
@@ -235,6 +235,8 @@ header {
   margin-inline: auto;
 
   padding-block: 6rem;
+
+  background-color: var(--clr-neutral-darker);
 }
 
 .booking-card {
@@ -433,18 +435,40 @@ footer h3 {
 }
 
 /* media queries */
+
+@media (max-width: 1010px) {
+  .search-bar {
+    display: none;
+  }
+}
 @media (max-width: 768px) {
+  header,
   .main-nav {
     flex-direction: column;
+    text-align: center;
+  }
+
+  .main-nav li {
+    border-bottom: 1px solid var(--clr-text);
+  }
+
+  .submenu li:hover {
+    background-color: var(--clr-neutral);
+  }
+
+  .submenu > a {
+    display: none;
+  }
+
+  .submenu li:last-of-type {
+    border-bottom: none;
   }
 
   .submenu-content {
     position: static;
     display: block;
     width: auto;
-  }
 
-  .submenu:hover .submenu-content {
-    display: none;
+    background-color: var(--clr-primary);
   }
 }
