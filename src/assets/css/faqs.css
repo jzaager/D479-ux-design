@@ -1,0 +1,23 @@
+.faq-content {
+  max-width: 70ch;
+
+  margin-inline: auto;
+  margin-bottom: 4rem;
+
+  font-size: 20px;
+}
+
+h1 {
+  text-align: center;
+  padding-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.q-and-a {
+  margin-bottom: 1.5rem;
+}
+
+.question {
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
