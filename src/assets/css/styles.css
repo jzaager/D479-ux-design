@@ -56,7 +56,9 @@ main.lodging h1 {
 header {
   background-color: var(--clr-primary);
   color: var(--clr-text);
+
   padding: 1.5rem 1rem;
+
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -64,6 +66,7 @@ header {
 
 .logo {
   margin-left: 20px;
+
   font-size: 24px;
   font-weight: 700;
 }
@@ -109,13 +112,16 @@ header {
 
 .submenu-content {
   display: none;
-  position: absolute;
-  background-color: var(--clr-neutral);
-  list-style: none;
   padding: 0;
-  left: 0;
+
+  position: absolute;
   top: 100%;
+  left: 0;
   z-index: 1;
+
+  background-color: var(--clr-neutral);
+
+  list-style: none;
 }
 
 .submenu:hover .submenu-content {
@@ -131,10 +137,11 @@ header {
 }
 
 .submenu-content a {
-  text-decoration: none;
   color: inherit;
-  padding: 10px 20px;
+  text-decoration: none;
+
   display: block;
+  padding: 10px 20px;
 }
 
 .search-bar {
@@ -144,6 +151,7 @@ header {
 /* main content */
 .hero {
   position: relative;
+
   background-image: url('../images/taniti-landscape-hero.jpg');
   background-size: cover;
   background-attachment: fixed;
@@ -217,6 +225,7 @@ header {
   width: 50%;
   padding: 10px;
   margin-right: 10px;
+
   border: none;
 }
 
@@ -265,11 +274,10 @@ header {
 
   background-color: var(--clr-neutral);
   border: 1px solid #ddd;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 
   border-radius: 8px;
   overflow: hidden;
-
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .booking-card:nth-of-type(2) {
@@ -291,9 +299,9 @@ header {
 
 .lodging .card-content {
   display: grid;
+  grid-template-rows: 67px 64px 1fr;
   gap: 1.2vw;
   justify-items: center;
-  grid-template-rows: 67px 64px 1fr;
 }
 
 .card-content h2 {
@@ -344,12 +352,14 @@ figcaption a {
 .about-content {
   max-width: 800px;
   margin: 0 auto;
+
   text-align: center;
 }
 
 .about h2 {
   font-size: 32px;
   margin-bottom: 20px;
+
   color: var(--clr-primary);
 }
 
@@ -365,6 +375,7 @@ figcaption a {
 footer {
   background-color: var(--clr-primary-dark);
   color: var(--clr-neutral);
+
   padding: 20px 0 10px;
 }
 
@@ -420,6 +431,7 @@ footer h3 {
 .social-media a {
   text-decoration: none;
   color: var(--clr-neutral);
+
   transition: color 300ms;
 }
 
