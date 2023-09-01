@@ -1,10 +1,15 @@
-.cuisine {
+.blog {
   padding-block: 2rem;
 }
 
-h2 {
+h1 {
   font-size: 38px;
-  margin-bottom: 20px;
+  margin-bottom: 4px;
+}
+
+h2 {
+  font-size: 28px;
+  margin-bottom: 15px;
 }
 
 section {
@@ -18,9 +23,17 @@ section p {
   font-size: 18px;
 }
 
+p.author {
+  font-size: 1rem;
+}
+
+p.author,
+figcaption {
+  margin-bottom: 35px;
+}
+
 figcaption {
   text-align: center;
-  margin-bottom: 40px;
 }
 
 @media (max-width: 650px) {
